@@ -1,0 +1,73 @@
+@font-face{
+    font-family: Bankay;
+    src: url(fonts/bankay.ttf);
+}
+@font-face{
+    font-family: Bring-the-noize;
+    src: url(fonts/bring-tha-noize.ttf);
+}
+@font-face{
+    font-family: roadradio_bold;
+    src: url(fonts/RoadRadio.woff);
+}
+@font-face{
+    font-family: roadradio_light;
+    src: url(fonts/RoadRadio-Light.woff);
+}
+body{
+    background-color: #0b0b0b;
+}
+.bankay{
+    font-family: Bankay;
+}
+.bring-the-noize{
+    font-family: Bring-the-noize;
+}
+.roadradio_bold{
+    font-family: roadradio_bold;
+}
+.roadradio_light{
+    font-family: roadradio_light;
+}
+.main_image{
+    background-image: url('2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1126px;
+}
+.text-yellow{
+    color: #faee51;
+}
+.logo_main{
+    font-size: 14rem;
+    font-stretch: extra-expanded;
+    line-height: 0.6;
+}
+.logo_second{
+    font-size: 13rem;
+    font-stretch: ultra-expanded;
+    line-height: 0.6;
+}
+.w-33{
+    width: 28%;
+}
+.yellow-line{
+    background-color: #faee51;
+    height: 0.7rem;
+}
+.bg-yellow{
+    background-color: #faee51;
+}
+.design{
+    font-size: 7rem;
+    color: #0b0b0b;
+}
+.h0{
+    font-size: 4rem;
+}
+.text-grey{
+    color: #3f3f3f;
+}
+.lh-i{
+    line-height: initial;
+}
