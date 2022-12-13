@@ -16,6 +16,18 @@
 }
 body{
     background-color: #0b0b0b;
+    /* background-image: url(site.jpg);
+    height: 6964px; */
+}
+.block{
+    margin: auto;
+    max-width: 1620px;
+}
+.separator{
+    margin-top: 100px;
+    margin-bottom: 175px;
+    font-size: 7rem;
+    color: #0b0b0b;
 }
 .bankay{
     font-family: Bankay;
@@ -58,10 +70,7 @@ body{
 .bg-yellow{
     background-color: #faee51;
 }
-.design{
-    font-size: 7rem;
-    color: #0b0b0b;
-}
+
 .h0{
     font-size: 4rem;
 }
@@ -70,4 +79,18 @@ body{
 }
 .lh-i{
     line-height: initial;
+}
+.btn-check{
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+    font-family: roadradio_bold;
+    padding: 0 !important;
+}
+.anotation{
+    color: #6a6a6a;
+}
+.text-black{
+    color:black;
+    font-weight: bold;
 }
