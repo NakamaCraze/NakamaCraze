@@ -94,3 +94,30 @@ body{
     color:black;
     font-weight: bold;
 }
+.btn-check:checked+.size{
+    background-color: #6a6a6a;
+}
+.size{
+    background-color: #0b0b0b;
+    border-radius: 13px;
+}
+.px-75{
+    padding: 0.75rem;
+}
+.p-03{
+    padding: 0.3rem;
+}
+.btn-check:checked+.color{
+    border: 2px solid white;
+    border-radius: 75px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 75px;
+    border: 2px solid white;
+}
+.btn-check:checked+.circle{
+    border: 0px;
+    background-color: #faee51;
+}
