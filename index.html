@@ -16,17 +16,23 @@
 </head>
 
 <body>
-  <div class="main_image p-5">
+  <!-- main -->
+
+  <div class="main_image p-5" id="main">
+    <!-- menu -->
+
     <header class="d-flex p-5 w-100 roadradio_light h3">
       <ul class="nav nav-pills justify-content-around w-100">
-        <li class="nav-item my-2"><a href="#" class="text-white">ГЛАВНАЯ</a></li>
-        <li class="nav-item m-2"><a href="#" class="text-white">КАТАЛОГ</a></li>
+        <li class="nav-item my-2"><a href="#main" class="text-white">ГЛАВНАЯ</a></li>
+        <li class="nav-item m-2"><a href="#design" class="text-white">КАТАЛОГ</a></li>
         <li class="nav-item mx-5"></li>
         <li class="nav-item mx-5"></li>
-        <li class="nav-item m-2"><a href="#" class="text-white">ДОСТАВКА</a></li>
-        <li class="nav-item my-2"><a href="#" class="text-white">КОНТАКТЫ</a></li>
+        <li class="nav-item m-2"><a href="#delivery" class="text-white">ДОСТАВКА</a></li>
+        <li class="nav-item my-2"><a href="#contacts" class="text-white">КОНТАКТЫ</a></li>
       </ul>
     </header>
+
+    <!-- /menu -->
     <div style="height: 765px;" class="align-items-center justify-content-center d-flex">
       <div class="text-center">
         <h1 class="bankay text-white logo_main">Nakama</h1>
@@ -34,7 +40,11 @@
       </div>
     </div>
   </div>
+
+  <!-- /main -->
   <div class="yellow-line"></div>
+  <!-- about -->
+
   <div class="text-center my-5 block">
     <img class="p-5" src="who.png" alt="">
   </div>
@@ -47,73 +57,231 @@
 
     <p class="text-yellow">仲間 [nakama] — с яп. товарищ; друг; компания.</p>
   </h3>
-  <div class="bg-yellow text-center bankay p-4 h1 separator">
+  <!-- /about -->
+  <!-- product -->
+
+  <div class="bg-yellow text-center bankay p-4 h1 separator" id="design">
     DESIGN
   </div>
+   <!-- product -->
   <div class="d-flex my-5 block">
-    <div class="mr-5">
-      <img src="test.png" alt="" >
+    <!-- carousel -->
+
+    <div class="mr-5 col-5">
+      <img src="test.png" alt="">
       <div class="form-check form-check-inline w-100 justify-content-center  mt-5">
-        <input type="radio" class="btn-check" name="options" id="img1" autocomplete="off" checked>
-        <label class="circle mx-2" for="img1"></label>
+        <input type="radio" class="btn-check" name="lucy_options" id="lucy_img1" autocomplete="off" checked>
+        <label class="circle mx-2" for="lucy_img1"></label>
 
-        <input type="radio" class="btn-check" name="options" id="img2" autocomplete="off">
-        <label class="circle mx-2" for="img2"></label>
+        <input type="radio" class="btn-check" name="lucy_options" id="lucy_img2" autocomplete="off">
+        <label class="circle mx-2" for="lucy_img2"></label>
 
-        <input type="radio" class="btn-check" name="options" id="img3" autocomplete="off">
-        <label class="circle mx-2" for="img3"></label>
+        <input type="radio" class="btn-check" name="lucy_options" id="lucy_img3" autocomplete="off">
+        <label class="circle mx-2" for="lucy_img3"></label>
 
-        <input type="radio" class="btn-check" name="options" id="img4" autocomplete="off">
-        <label class="circle mx-2" for="img4"></label>
+        <input type="radio" class="btn-check" name="lucy_options" id="lucy_img4" autocomplete="off">
+        <label class="circle mx-2" for="lucy_img4"></label>
       </div>
     </div>
-    <div class="d-block  mt-5 ml-4 lh-i">
-      <div class="text-yellow roadradio_bold h0 mt-4 ml-5">СВИТШОТ "LUCY"</div>
-      <h2 class="roadradio_light text-grey mt-2 ml-5">CYBERPUNK: EDGERUNNERS</h2>
-      <div class="h0 text-white my-5 roadradio_bold d-flex align-items-end">17.900<sh5>₸</h5>
+
+    <!-- /carousel -->
+    <div class="d-block  mt-5 ml-5 lh-i">
+      <div class="text-yellow roadradio_bold h0 mt-4 ml-3">СВИТШОТ "LUCY"</div>
+      <h2 class="roadradio_light text-grey mt-2 ml-3">CYBERPUNK: EDGERUNNERS</h2>
+      <div class="h0 text-white my-5 roadradio_bold d-flex align-items-end ml-3">17.900<sh5>₸</h5>
       </div>
       <div class="d-flex">
-        <div>
+        <div class="col-8">
           <div class="d-flex mt-1">
-            <h2 class="roadradio_light text-white">ЦВЕТ:</h2>
-            <div class="form-check form-check-inline ">
-              <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-              <label class="p-03 mx-2 color" for="option1"><img src="black.png" alt=""></label>
+            <h2 class="roadradio_light text-white ml-4">ЦВЕТ:</h2>
+            <div class=" form-check-inline ">
+              <input type="radio" class="btn-check" name="lucy_color" id="lucy_option1" autocomplete="off" checked>
+              <label class="p-03 mx-2 color" for="lucy_option1"><img src="black.png" alt=""></label>
 
-              <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-              <label class="p-03 mx-2 color" for="option2"><img src="red.png" alt=""></label>
+              <input type="radio" class="btn-check" name="lucy_color" id="lucy_option2" autocomplete="off">
+              <label class="p-03 mx-2 color" for="lucy_option2"><img src="red.png" alt=""></label>
 
-              <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
-              <label class="p-03 mx-2 color" for="option3"><img src="white.png" alt=""></label>
+              <input type="radio" class="btn-check" name="lucy_color" id="lucy_option3" autocomplete="off">
+              <label class="p-03 mx-2 color" for="lucy_option3"><img src="white.png" alt=""></label>
 
-              <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
-              <label class="p-03 mx-2 color" for="option4"><img src="yellow.png" alt=""></label>
+              <input type="radio" class="btn-check" name="lucy_color" id="lucy_option4" autocomplete="off">
+              <label class="p-03 mx-2 color" for="lucy_option4"><img src="yellow.png" alt=""></label>
             </div>
           </div>
-          <div class="d-flex my-3">
+          <div class="d-flex my-2 ml-4">
             <h2 class="roadradio_light text-white pt-1">РАЗМЕР:</h2>
-            <div class="form-check form-check-inline ">
-              <input type="radio" class="btn-check" name="options" id="S" autocomplete="off" checked>
-              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="S">S</label>
+            <div class=" form-check-inline ">
+              <input type="radio" class="btn-check" name="lucy_size" id="lucy_S" autocomplete="off" checked>
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="lucy_S">S</label>
 
-              <input type="radio" class="btn-check" name="options" id="M" autocomplete="off">
-              <label class="size text-white h3 mx-2 px-75 py-2 roadradio_light" for="M">M</label>
+              <input type="radio" class="btn-check" name="lucy_size" id="lucy_M" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-2 roadradio_light" for="lucy_M">M</label>
 
-              <input type="radio" class="btn-check" name="options" id="L" autocomplete="off">
-              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="L">L</label>
+              <input type="radio" class="btn-check" name="lucy_size" id="lucy_L" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="lucy_L">L</label>
 
-              <input type="radio" class="btn-check" name="options" id="XL" autocomplete="off">
-              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="XL">XL</label>
+              <input type="radio" class="btn-check" name="lucy_size" id="lucy_XL" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="lucy_XL">XL</label>
             </div>
           </div>
-          <h2 class="roadradio_light text-white mt-3">80% ХЛОПОК <br> 20% ПОЛИЭСТЕР</h2>
-          <h2 class="text-grey roadradio_light">ТЕБЕ НИКОГДА НЕ НУЖНО БЫЛО СПАСАТЬ МЕНЯ</h2>
+          <h2 class="roadradio_light text-white mt-3 ml-4">80% ХЛОПОК <br> 20% ПОЛИЭСТЕР</h2>
+          <div class="d-flex mt-3">
+            <h1 class=" comment_before roadradio_light pr-2">“</h1>
+            <h2 class="text-grey roadradio_light comment lh-i mt-2"> ТЕБЕ НИКОГДА НЕ НУЖНО БЫЛО СПАСАТЬ МЕНЯ</h2>
+          </div>
         </div>
-        <img src="lucy.png" alt="">
+        <img src="lucy.png" class="img-thumbnail product-image" alt="">
       </div>
     </div>
   </div>
-  <div class="bg-yellow text-center bankay p-4 h1 separator">
+  <div class="bg-yellow product-separator"></div>
+  <!-- /product -->
+  <!-- product -->
+  <div class="d-flex my-5 block">
+    <!-- carousel -->
+
+    <div class="mr-5 col-5">
+      <img src="test.png" alt="">
+      <div class="form-check form-check-inline w-100 justify-content-center  mt-5">
+        <input type="radio" class="btn-check" name="misato_options" id="misato_img1" autocomplete="off" checked>
+        <label class="circle mx-2" for="misato_img1"></label>
+
+        <input type="radio" class="btn-check" name="misato_options" id="misato_img2" autocomplete="off">
+        <label class="circle mx-2" for="misato_img2"></label>
+
+        <input type="radio" class="btn-check" name="misato_options" id="misato_img3" autocomplete="off">
+        <label class="circle mx-2" for="misato_img3"></label>
+
+        <input type="radio" class="btn-check" name="misato_options" id="misato_img4" autocomplete="off">
+        <label class="circle mx-2" for="misato_img4"></label>
+      </div>
+    </div>
+
+    <!-- /carousel -->
+    <div class="d-block  mt-5 ml-5 lh-i">
+      <div class="text-yellow roadradio_bold h0 mt-4 ml-3">СВИТШОТ "MISATO"</div>
+      <h2 class="roadradio_light text-grey mt-2 ml-3">EVANGELION</h2>
+      <div class="h0 text-white my-5 roadradio_bold d-flex align-items-end ml-3">17.900<sh5>₸</h5>
+      </div>
+      <div class="d-flex">
+        <div class="col-8">
+          <div class="d-flex mt-1">
+            <h2 class="roadradio_light text-white ml-4">ЦВЕТ:</h2>
+            <div class=" form-check-inline ">
+              <input type="radio" class="btn-check" name="misato_color" id="misato_option1" autocomplete="off" checked>
+              <label class="p-03 mx-2 color" for="misato_option1"><img src="black.png" alt=""></label>
+
+              <input type="radio" class="btn-check" name="misato_color" id="misato_option2" autocomplete="off">
+              <label class="p-03 mx-2 color" for="misato_option2"><img src="red.png" alt=""></label>
+
+              <input type="radio" class="btn-check" name="misato_color" id="misato_option3" autocomplete="off">
+              <label class="p-03 mx-2 color" for="misato_option3"><img src="white.png" alt=""></label>
+
+              <input type="radio" class="btn-check" name="misato_color" id="misato_option4" autocomplete="off">
+              <label class="p-03 mx-2 color" for="misato_option4"><img src="yellow.png" alt=""></label>
+            </div>
+          </div>
+          <div class="d-flex my-2 ml-4">
+            <h2 class="roadradio_light text-white pt-1">РАЗМЕР:</h2>
+            <div class=" form-check-inline ">
+              <input type="radio" class="btn-check" name="misato_size" id="misato_S" autocomplete="off" checked>
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="misato_S">S</label>
+
+              <input type="radio" class="btn-check" name="misato_size" id="misato_M" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-2 roadradio_light" for="misato_M">M</label>
+
+              <input type="radio" class="btn-check" name="misato_size" id="misato_L" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="misato_L">L</label>
+
+              <input type="radio" class="btn-check" name="misato_size" id="misato_XL" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="misato_XL">XL</label>
+            </div>
+          </div>
+          <h2 class="roadradio_light text-white mt-3 ml-4">80% ХЛОПОК <br> 20% ПОЛИЭСТЕР</h2>
+          <div class="d-flex mt-3">
+            <h1 class=" comment_before roadradio_light pr-2">“</h1>
+            <h2 class="text-grey roadradio_light comment lh-i mt-2"> ЭТО ВЗРОСЛЫЙ ПОЦЕЛУЙ, ОСТАЛЬНОЕ БУДЕТ, КОГДА ВЕРНЕШЬСЯ</h2>
+          </div>
+        </div>
+        <img src="misato.png" class="img-thumbnail product-image"alt="">
+      </div>
+    </div>
+  </div>
+  <div class="bg-yellow product-separator"></div>
+  <!-- /product -->
+  <!-- product -->
+  <div class="d-flex my-5 block">
+    <!-- carousel -->
+
+    <div class="mr-5 col-5">
+      <img src="test.png" alt="">
+      <div class="form-check form-check-inline w-100 justify-content-center  mt-5">
+        <input type="radio" class="btn-check" name="mai_options" id="mai_img1" autocomplete="off" checked>
+        <label class="circle mx-2" for="mai_img1"></label>
+
+        <input type="radio" class="btn-check" name="mai_options" id="mai_img2" autocomplete="off">
+        <label class="circle mx-2" for="mai_img2"></label>
+
+        <input type="radio" class="btn-check" name="mai_options" id="mai_img3" autocomplete="off">
+        <label class="circle mx-2" for="mai_img3"></label>
+
+        <input type="radio" class="btn-check" name="mai_options" id="mai_img4" autocomplete="off">
+        <label class="circle mx-2" for="mai_img4"></label>
+      </div>
+    </div>
+
+    <!-- /carousel -->
+    <div class="d-block  mt-5 ml-5 lh-i">
+      <div class="text-yellow roadradio_bold h0 mt-4 ml-3">СВИТШОТ "MAI"</div>
+      <h2 class="roadradio_light text-grey mt-2 ml-3 w-75">ЭТОТ ГЛУПЫЙ СВИН НЕ ПОНИМАЕТ  МЕЧТУ ДЕВОЧКИ ЗАЙКИ</h2>
+      <div class="h0 text-white my-5 roadradio_bold d-flex align-items-end ml-3">17.900<sh5>₸</h5>
+      </div>
+      <div class="d-flex">
+        <div class="col-8">
+          <div class="d-flex mt-1">
+            <h2 class="roadradio_light text-white ml-4">ЦВЕТ:</h2>
+            <div class=" form-check-inline ">
+              <input type="radio" class="btn-check" name="mai_color" id="mai_option1" autocomplete="off" checked>
+              <label class="p-03 mx-2 color" for="mai_option1"><img src="black.png" alt=""></label>
+
+              <input type="radio" class="btn-check" name="mai_color" id="mai_option2" autocomplete="off">
+              <label class="p-03 mx-2 color" for="mai_option2"><img src="red.png" alt=""></label>
+
+              <input type="radio" class="btn-check" name="mai_color" id="mai_option3" autocomplete="off">
+              <label class="p-03 mx-2 color" for="mai_option3"><img src="white.png" alt=""></label>
+
+              <input type="radio" class="btn-check" name="mai_color" id="mai_option4" autocomplete="off">
+              <label class="p-03 mx-2 color" for="mai_option4"><img src="yellow.png" alt=""></label>
+            </div>
+          </div>
+          <div class="d-flex my-2 ml-4">
+            <h2 class="roadradio_light text-white pt-1">РАЗМЕР:</h2>
+            <div class=" form-check-inline ">
+              <input type="radio" class="btn-check" name="mai_size" id="mai_S" autocomplete="off" checked>
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="mai_S">S</label>
+
+              <input type="radio" class="btn-check" name="mai_size" id="mai_M" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-2 roadradio_light" for="mai_M">M</label>
+
+              <input type="radio" class="btn-check" name="mai_size" id="mai_L" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="mai_L">L</label>
+
+              <input type="radio" class="btn-check" name="mai_size" id="mai_XL" autocomplete="off">
+              <label class="size text-white h3 mx-2 px-75 py-1 roadradio_light" for="mai_XL">XL</label>
+            </div>
+          </div>
+          <h2 class="roadradio_light text-white mt-3 ml-4">80% ХЛОПОК <br> 20% ПОЛИЭСТЕР</h2>
+          <div class="d-flex mt-3">
+            <h1 class=" comment_before roadradio_light pr-2">“</h1>
+            <h2 class="text-grey roadradio_light comment lh-i mt-2"> Я ВЕДЬ ПРИВЫКЛА БЫТЬ ОДНОЙ. НЕ ВОЛНУЙСЯ НУ ЗАБУДЕШЬ ТЫ МЕНЯ - ЭТО МЕЛОЧИ</h2>
+          </div>
+        </div>
+        <img src="mai.png" class="img-thumbnail product-image" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- /product -->
+  <div class="bg-yellow text-center bankay p-4 h1 separator" id="delivery">
     DOCTABKA
   </div>
   <div class="my-5 d-flex block">
@@ -131,44 +299,21 @@
       <img src="31.png" alt="">
     </div>
   </div>
-  <footer class="bg-yellow text-center pb-4 pt-5">
+  <footer class="bg-yellow text-center pb-4 pt-5" id="contacts">
     <!-- Section: Social media -->
     <section>
-      <!-- Instagram -->
       <a class="text-black roadradio_bold h4" href="#!" role="button">
         <img class="mr-2" src="phone.png" alt="">+7 (747)870-57-51
       </a>
       <a class="mx-5" href="#!" role="button">
         <img src="craze.png" alt="">
       </a>
-      <!-- Linkedin -->
       <a class=" text-black roadradio_bold h4" href="#!" role="button">
         <img class="mr-2" src="instagram (1).png" alt="">NACAMA.CRAZE
       </a>
-
-      <!-- Github -->
-
     </section>
     <!-- Section: Social media -->
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
