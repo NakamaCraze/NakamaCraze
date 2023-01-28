@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import Header from './Components/Header';
+import { Image } from 'react-bootstrap';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from './logo.gif'
+import Characters from './Components/Characters';
+import Goods from './Components/Goods';
+import Delivery from './Components/Delivery';
+import Contacts from './Components/Contacts';
+import Lucy from './Components/Lucy';
+import Misa from './Components/Misa';
+import Mai from './Components/Mai';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <div className="bg">
+      <Header></Header>
+      <div className='w-100 text-center'>
+      <Image 
+      src={logo}
+      height={1100}
+      width={1200}
+      />
+      </div>
+      </div>
+      <Characters></Characters>
+      <Goods></Goods>
+      <Misa></Misa>
+      <Lucy></Lucy>
+      <Mai></Mai>
+      <Delivery></Delivery>
+      <Contacts></Contacts>
     </div>
   );
 }
