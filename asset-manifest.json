@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.08ccdde3.css",
-    "main.js": "/static/js/main.cce8541e.js",
+    "main.css": "/static/css/main.6dbb62dc.css",
+    "main.js": "/static/js/main.4fa410fa.js",
     "static/js/787.442138c0.chunk.js": "/static/js/787.442138c0.chunk.js",
-    "static/media/logo.gif": "/static/media/logo.37704f4476b409eae16f.gif",
+    "static/media/logo.gif": "/static/media/logo.058dbc2e093e99bee3f6.gif",
     "static/media/MisatoGreen.png": "/static/media/MisatoGreen.517c256152a5244c9025.png",
     "static/media/MisatoRed.png": "/static/media/MisatoRed.15caddf2260ed80a8358.png",
     "static/media/MisatoBlack.png": "/static/media/MisatoBlack.2155ad0621242b4e778e.png",
@@ -32,13 +32,14 @@
     "static/media/Misato.png": "/static/media/Misato.fd0a7cec66be4c01609b.png",
     "static/media/roadradio_bold.otf": "/static/media/roadradio_bold.cdfd284aa66f33967ed5.otf",
     "static/media/RoadRadio-Light.woff": "/static/media/RoadRadio-Light.fc351fca4e6052f33441.woff",
+    "static/media/craze.png": "/static/media/craze.d26070c079fc2d1b96ef.png",
     "index.html": "/index.html",
-    "main.08ccdde3.css.map": "/static/css/main.08ccdde3.css.map",
-    "main.cce8541e.js.map": "/static/js/main.cce8541e.js.map",
+    "main.6dbb62dc.css.map": "/static/css/main.6dbb62dc.css.map",
+    "main.4fa410fa.js.map": "/static/js/main.4fa410fa.js.map",
     "787.442138c0.chunk.js.map": "/static/js/787.442138c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ccdde3.css",
-    "static/js/main.cce8541e.js"
+    "static/css/main.6dbb62dc.css",
+    "static/js/main.4fa410fa.js"
   ]
 }
