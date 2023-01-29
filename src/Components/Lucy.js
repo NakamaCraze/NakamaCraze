@@ -22,35 +22,35 @@ function Lucy() {
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={LucyPink}
+                                    src={LucyWhite}
                                     alt="First slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={LucyGreen}
+                                    src={LucyBlack}
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={LucyRed}
+                                    src={LucyGreen}
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={LucyWhite}
+                                    src={LucyRed}
                                     alt="Fourht slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={LucyBlack}
+                                    src={LucyPink}
                                     alt="Fith slide"
                                 />
                             </Carousel.Item>

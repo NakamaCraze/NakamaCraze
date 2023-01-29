@@ -16,6 +16,7 @@ p{
 .bg{
   background: center url(bg.png);
   background-size: cover;
+  height: 1080px;
 }
 .line-short{
   width: 1px;
@@ -99,7 +100,7 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
   width: 28%;
 }
 .container-fluid{
-  max-width: 1550px;
+  max-width: 1450px;
 }
 .fadex + .carousel-item-end{
   animation: shadow 0.7s linear;
@@ -119,4 +120,7 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
   }
 .footerLink{
   text-decoration: none ;
+}
+.footerlogo{
+  height: 100px;
 }

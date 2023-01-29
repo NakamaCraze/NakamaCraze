@@ -11,7 +11,7 @@ function Contacts() {
                 <Image fluid className="me-2 " src={phone} alt="" />+7 (747)870-57-51
             </a>
             <a className="mx-5" href="#!" role="button">
-                <Image fluid src={craze} alt="" />
+                <Image className="footerlogo" src={craze} alt="" />
             </a>
             <a className="p text-black footerLink" href="https://instagram.com/nakama.craze?igshid=YmMyMTA2M2Y=" role="button">
                 <Image className="me-2 " src={instagram} alt="" />NACAMA.CRAZE

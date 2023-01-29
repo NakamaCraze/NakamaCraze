@@ -14,15 +14,13 @@ import Mai from './Components/Mai';
 function App() {
   return (
     <div className='App'>
-    <div className="bg">
-      <Header></Header>
-      <div className='w-100 text-center'>
-      <Image 
-      src={logo}
-      height={1100}
-      width={1200}
-      />
-      </div>
+      <div className="bg">
+        <Header></Header>
+        <div className='w-50 text-center mx-auto d-flex align-items-center h-100'>
+          <Image fluid
+            src={logo}
+          />
+        </div>
       </div>
       <Characters></Characters>
       <Goods></Goods>

@@ -22,35 +22,35 @@ function Mai() {
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={MaiPink}
+                                    src={MaiRed}
                                     alt="First slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={MaiGreen}
+                                    src={MaiBlack}
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={MaiRed}
+                                    src={MaiPink}
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={MaiWhite}
+                                    src={MaiGreen}
                                     alt="Fourht slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="fadex">
                                 <Image fluid
                                     className="d-block w-100"
-                                    src={MaiBlack}
+                                    src={MaiWhite}
                                     alt="Fith slide"
                                 />
                             </Carousel.Item>
