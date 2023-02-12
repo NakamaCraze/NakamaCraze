@@ -10,8 +10,8 @@ function Contacts() {
             <a className="p text-black footerLink" href="tel:+77478705751" role="button">
                 <Image fluid className="me-2 " src={phone} alt="" />+7 (747)870-57-51
             </a>
-            <a className="mx-5" href="#!" role="button">
-                <Image className="footerlogo" src={craze} alt="" />
+            <a className="mx-auto mx-sm-5" href="#!" role="button">
+                <Image className="footerlogo my-2 my-sm-0" src={craze} alt="" />
             </a>
             <a className="p text-black footerLink" href="https://instagram.com/nakama.craze?igshid=YmMyMTA2M2Y=" role="button">
                 <Image className="me-2 " src={instagram} alt="" />NACAMA.CRAZE

@@ -1,13 +1,26 @@
 p{
   font-size: 0.9rem;
+  line-height: 1;
 }
 @font-face {
   font-family: RoadRadioBold;
   src: url(roadradio_bold.otf); 
  }
+ @font-face {
+  font-family: RoadRadio;
+  src: url(RoadRadio.woff); 
+ }
+ .RoadRadio{
+  font-family: RoadRadio;
+ }
  .section {
   font-family: RoadRadioBold;
   font-size: 3.5rem;
+  color: #000;
+ }
+ .slicer{
+  height: 2px;
+  background-color: #faee51;
  }
  @font-face {
   font-family: RoadRadioLight;
@@ -16,15 +29,15 @@ p{
 .bg{
   background: center url(bg.png);
   background-size: cover;
-  height: 1080px;
+  height: 63vw;
 }
 .line-short{
-  width: 1px;
-  height: 250px;
+  width: 3px;
+  height: 150px;
 }
 .line-long{
-  width: 1px;
-  height: 750px;
+  width: 3px;
+  height: 575px;
 }
 .design{
   background-color: #f3f3f3;
@@ -74,7 +87,7 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
 }
 .buy-btn{
   border: solid 4px #faee51 !important;
-  background-color: #0b0b0b !important;
+  background-color: #000 !important;
   font-size: 2.6rem !important;
 }
 .buy-btn:hover{
@@ -123,4 +136,18 @@ border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-colo
 }
 .footerlogo{
   height: 100px;
+}
+.name{
+  height: 65px;
+}
+.font-weight-revert{
+  font-weight: revert;
+}
+.h4-min{
+  font-size: 1.3rem;
+}
+@media(max-width: 576px){
+  .section{
+    font-size: 2rem;
+  }
 }

@@ -7,7 +7,7 @@ import Lucy from "../Characters/Lucy.png"
 function Characters() {
   return (
     <div className='bg-lightWhite'>
-        <h1 className='text-center font-weight-bold section design m-0'>DESIGN</h1>
+        <h1 className='text-center font-weight-bold section design pt-3'>DESIGN</h1>
     <Carousel variant="dark" indicators={false}>
       <Carousel.Item>
         <img
